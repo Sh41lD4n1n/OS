@@ -1,0 +1,116 @@
+    1  pwd
+    2  less
+    3  less --help
+    4  ls
+    5  pwd
+    6  mkdir OS
+    7  cd OS
+    8  cd ..
+    9  ls
+   10  cd OS
+   11  cat hello.txt
+   12  cat >hello.txt
+   13  gebit hello.txt
+   14  gedit hello.txt
+   15  man gedir
+   16  man gedit
+   17  man man
+   18  ls
+   19  gedit file.txt
+   20  y
+   21  sudo
+   22  apt
+   23  ls >list1.txt papka
+   24  ls >list1.txt
+   25  ls
+   26  list1.txt
+   27  grep H hello.txt
+   28  hostname
+   29  man head
+   30  head -n 3 hello.txt
+   31  head -n 5 hello.txt
+   32  cat >>hello.txt
+   33  head -n 5 hello.txt
+   34  tail -n 1 hello.txt
+   35  help
+   36  зцв
+   37  pwd
+   38  ls
+   39  hello.txt
+   40  open hello.txt
+   41  pwd
+   42  cd ..
+   43  pwd
+   44  ls
+   45  cd home
+   46  explorer.exe .
+   47  explorer.exe .
+   48  pwd
+   49  whoami
+   50  less
+   51  less --help
+   52  pwd
+   53  cd ..
+   54  ls
+   55  cd Users
+   56  cd Admin
+   57  cd Desctop
+   58  ls
+   59  cd Desctop
+   60  cd Desktop
+   61  cd Innopolis Tasks
+   62  cd Innopolis
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd 'Innopolis tasks'
+   67  mkdir OS
+   68  cd OS
+   69  cat >hello.txt
+   70  ls
+   71  cd OS
+   72  ls
+   73  mkdir week1
+   74  cd ~/OS/week1
+   75  ls /usr/bin
+   76  ls /usr/bin | grep gcc /urs/bin
+   77  ls /usr/bin | grep le /urs/bin
+   78  ls /usr/bin | grep le 
+   79  ls /usr/bin | grep gcc
+   80  ls /usr/bin | grep le 
+   81  ls /usr/bin | grep le | sort -r
+   82  ls /usr/bin | grep le | sort 
+   83  ls /usr/bin | grep le | sort -r
+   84  ls /usr/bin | grep le | sort -r | cat > ex1.txt
+   85  less ex1.txt
+   86  ls /usr/bin | grep le | sort -r | cat > ex1.txt
+   87  ls /usr/bin | grep gcc | sort -r 
+   88  ls /usr/bin | grep gcc | sort -r | cat > ex1.txt
+   89  pwd
+   90  ls
+   91  pwd
+   92  cd OS
+   93  ls
+   94  mkdir week1
+   95  ls
+   96  cd week1
+   97  ls
+   98  ls ex1.txt
+   99  ls >ex1.txt
+  100  ls
+  101  ls /urs/bin | grep gcc|sort -r|cat >ex1.txt
+  102  ls /usr/bin | grep gcc|sort -r|cat >ex1.txt
+  103  ls /usr/bin | grep gcc|sort -r >ex1.txt
+  104  ls /usr/bin | grep gcc|sort -r >~/week1/ex1.txt
+  105  ls
+  106  ls /usr/bin | grep gcc|sort -r >~/OS/week1/ex1.txt
+  107  man hostname
+  108  man --help
+  109  prw
+  110  pwd
+  111  cd OS/week1
+  112  head -n 3 <ex1.txt |sort -r
+  113  head -n 3 <ex1.txt
+  114  touch ex2.txt
+  115  ls
+  116  history >ex2.txt

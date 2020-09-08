@@ -1,0 +1,120 @@
+systemd-+-ModemManager-+-{gdbus}
+        |              `-{gmain}
+        |-NetworkManager-+-dhclient
+        |                |-dnsmasq
+        |                |-{gdbus}
+        |                `-{gmain}
+        |-VBoxClient---VBoxClient---{SHCLIP}
+        |-VBoxClient---VBoxClient
+        |-VBoxClient---VBoxClient---{X11 events}
+        |-VBoxClient---VBoxClient-+-{dndHGCM}
+        |                         `-{dndX11}
+        |-VBoxService-+-{automount}
+        |             |-{control}
+        |             |-{cpuhotplug}
+        |             |-{memballoon}
+        |             |-{timesync}
+        |             |-{vminfo}
+        |             `-{vmstats}
+        |-accounts-daemon-+-{gdbus}
+        |                 `-{gmain}
+        |-agetty
+        |-cron
+        |-2*[dbus-daemon]
+        |-dbus-launch
+        |-dconf-service-+-{gdbus}
+        |               `-{gmain}
+        |-evinced-+-{gdbus}
+        |         `-{gmain}
+        |-gvfs-afc-volume-+-{gdbus}
+        |                 |-{gmain}
+        |                 `-{gvfs-afc-volume}
+        |-gvfs-goa-volume-+-{gdbus}
+        |                 `-{gmain}
+        |-gvfs-gphoto2-vo-+-{gdbus}
+        |                 `-{gmain}
+        |-gvfs-mtp-volume-+-{gdbus}
+        |                 `-{gmain}
+        |-gvfs-udisks2-vo-+-{gdbus}
+        |                 `-{gmain}
+        |-gvfsd-+-{gdbus}
+        |       `-{gmain}
+        |-gvfsd-fuse-+-{gdbus}
+        |            |-{gmain}
+        |            |-{gvfs-fuse-sub}
+        |            `-2*[{gvfsd-fuse}]
+        |-gvfsd-metadata-+-{gdbus}
+        |                `-{gmain}
+        |-gvfsd-trash-+-{gdbus}
+        |             `-{gmain}
+        |-indicator-appli-+-{gdbus}
+        |                 `-{gmain}
+        |-indicator-sound-+-{dconf worker}
+        |                 |-{gdbus}
+        |                 `-{gmain}
+        |-light-locker-+-{dconf worker}
+        |              |-{gdbus}
+        |              `-{gmain}
+        |-lightdm-+-Xorg---{InputThread}
+        |         |-lightdm-+-lxsession-+-lxpanel-+-{dconf worker}
+        |         |         |           |         |-{gdbus}
+        |         |         |           |         |-{gmain}
+        |         |         |           |         `-{menu-cache-io}
+        |         |         |           |-openbox-+-{gdbus}
+        |         |         |           |         `-{gmain}
+        |         |         |           |-pcmanfm-+-evince-+-{EvJobScheduler}
+        |         |         |           |         |        |-{dconf worker}
+        |         |         |           |         |        |-{gdbus}
+        |         |         |           |         |        `-{gmain}
+        |         |         |           |         |-lxterminal-+-bash-+-2*[cat]
+        |         |         |           |         |            |      |-ex2.out-+-ex2.out-+-ex2.out---ex2.out
+        |         |         |           |         |            |      |         |         `-ex2.out
+        |         |         |           |         |            |      |         |-ex2.out---ex2.out
+        |         |         |           |         |            |      |         `-ex2.out
+        |         |         |           |         |            |      `-pstree
+        |         |         |           |         |            |-gnome-pty-helpe
+        |         |         |           |         |            |-{gdbus}
+        |         |         |           |         |            `-{gmain}
+        |         |         |           |         |-{gdbus}
+        |         |         |           |         |-{gmain}
+        |         |         |           |         `-2*[{pool}]
+        |         |         |           |-ssh-agent
+        |         |         |           |-{gdbus}
+        |         |         |           `-{gmain}
+        |         |         |-{gdbus}
+        |         |         `-{gmain}
+        |         |-{gdbus}
+        |         `-{gmain}
+        |-menu-cached-+-{gdbus}
+        |             `-{gmain}
+        |-nm-applet-+-{dconf worker}
+        |           |-{gdbus}
+        |           `-{gmain}
+        |-ntpd
+        |-polkitd-+-{gdbus}
+        |         `-{gmain}
+        |-pulseaudio-+-{alsa-sink-Intel}
+        |            `-{alsa-source-Int}
+        |-rsyslogd-+-{in:imklog}
+        |          |-{in:imuxsock}
+        |          `-{rs:main Q:Reg}
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-ssh-agent
+        |-systemd---(sd-pam)
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-udevd
+        |-udisksd-+-{cleanup}
+        |         |-{gdbus}
+        |         |-{gmain}
+        |         `-{probing-thread}
+        |-update-notifier-+-{dconf worker}
+        |                 |-{gdbus}
+        |                 `-{gmain}
+        |-upowerd-+-{gdbus}
+        |         `-{gmain}
+        |-whoopsie-+-{gdbus}
+        |          `-{gmain}
+        |-xfce4-power-man-+-{gdbus}
+        |                 `-{gmain}
+        `-xfconfd

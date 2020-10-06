@@ -1,0 +1,4 @@
+
+Virtual address allow to work with programs that need high memory. If Virtual address doesn't
+contain information, it can restore information.
+Physical address is real addresses in memory.

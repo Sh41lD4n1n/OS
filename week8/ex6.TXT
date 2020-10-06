@@ -1,0 +1,5 @@
+As shown in Figure 3-10 address is divided in to two parts first one show page number, second one show offset.
+Let's tranform 8KB to bytes: 8KB=8192. To find max offset substitude 1 from 8192: offset=8191 and convert it to binary
+form: 8191= 0001 1111 1111 1111. The first bits are number of pages. maximum value is 111=7.
+
+Answer: Number of pages = 8.

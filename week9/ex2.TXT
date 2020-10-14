@@ -1,0 +1,9 @@
+input	ratio(hit/miss)
+
+N=10	0.010101 hit 10 miss 990
+N=50	0.054852 hit 52 miss 948
+N=100	0.108647 hit 98 miss 902
+
+Pages that was used recently and often are stored.
+If the number of page frames increase, then it 
+will contain more useful pages. That increase number of hit.

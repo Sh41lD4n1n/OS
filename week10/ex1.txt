@@ -1,0 +1,10 @@
+total 28
+172042 drwxrwxr-x  2 user user 4096 окт 20 15:12 .
+163847 drwxrwxr-x 10 user user 4096 окт 20 13:37 ..
+166699 -rw-rw-r--  5 user user    0 окт 20 13:05 _ex1_1.txt
+166699 -rw-rw-r--  5 user user    0 окт 20 13:05 _ex1_2.txt
+166699 -rw-rw-r--  5 user user    0 окт 20 13:05 _ex1.txt
+166710 -rw-rw-r--  1 user user    0 окт 20 15:14 ex1.txt
+166723 -rwxrwxr-x  1 user user 8552 окт 20 13:37 ex4
+166729 -rw-rw-r--  1 user user   44 окт 20 15:03 ex4.c
+166717 -rw-rw-r--  1 user user 1240 окт 20 13:37 ex4.o

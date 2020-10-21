@@ -1,0 +1,10 @@
+-rw-rw-r-- 1 user user 0 окт 20 16:09 _ex3.txt
+---------- 1 user user 0 окт 20 16:09 _ex3.txt
+-rwx---rwx 1 user user 0 окт 20 16:09 _ex3.txt
+-rwxrwxrwx 1 user user 0 окт 20 16:09 _ex3.txt
+
+
+660 (6=110) means that owner and groups have read and write permition.
+775 (7=111, 5=101) means that owner and other have read, write and execute permition
+, groups have read and execute permition.
+775 (7=111) means that owner group , and other have read, write and execute permition.

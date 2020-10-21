@@ -1,0 +1,11 @@
+166706 ../week01/file.txt
+./_ex2.txt
+
+_ex1_1.txt
+_ex1_2.txt
+_ex1.txt
+ex1.txt
+ex2.txt
+ex4
+ex4.c
+ex4.o

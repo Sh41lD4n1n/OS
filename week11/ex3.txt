@@ -1,1 +1,5 @@
-ex3.txt
+In first program string are stored in buffer
+thus string will be printed when in two processes when they will print "\n"
+
+In second program string with "\n" are given to buffer
+thus string had been printed to screen before new process was started
